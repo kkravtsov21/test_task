@@ -15,7 +15,7 @@ class Main extends StatefulWidget {
 class _MainState extends State<Main> {
   final Random _random = Random();
   Color _color = const Color.fromARGB(255, 5, 7, 154);
-  int color = 256;
+  int color = 254;
   void changeColor() {
     setState(() {
       _color = Color.fromARGB(
